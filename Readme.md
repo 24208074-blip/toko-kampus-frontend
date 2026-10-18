@@ -1,22 +1,24 @@
 # Toko Kampus – Front-End E-Commerce Sederhana
 
-Tugas Pertemuan 7 – E-Business System (HTML, CSS, JavaScript).
-Studi kasus: **Sistem Toko Online Kampus** (dari desain Pertemuan 4–6).
+Tugas Pertemuan 7 – E-Business System
+Nama: Aurelia Relsi Patintingan | NIM: 24208074
+Studi kasus: **Sistem Toko Online Kampus** (desain Pertemuan 4–6)
 
-> Pembayaran di proyek ini adalah **simulasi sistem**, bukan pembayaran nyata. Data disimpan di `localStorage` browser, belum terhubung ke database (back-end PHP/MySQL dibahas pada tahap berikutnya).
+> Pembayaran pada proyek ini adalah **simulasi sistem**, bukan pembayaran nyata. Data disimpan sementara di `localStorage` browser dan belum terhubung ke database (back-end PHP/MySQL dibahas pada tahap berikutnya).
+
+## Teknologi
+HTML (struktur), CSS (tampilan, Flexbox, Grid, media query), JavaScript (interaksi dan validasi).
 
 ## Cara menjalankan
-1. Unduh atau clone repository ini.
-2. Buka `index.html` di browser (atau pakai ekstensi Live Server di VS Code).
+1. Unduh repository ini (**Code → Download ZIP**) lalu ekstrak.
+2. Buka file `index.html` di browser (Chrome atau Edge).
 
 ## Struktur folder
 ```
-ecommerce-project/
 ├── index.html      (Home + katalog produk)
 ├── product.html    (detail produk)
 ├── cart.html       (keranjang)
 ├── checkout.html   (checkout + simulasi pembayaran)
-├── login.html      (login simulasi)
 ├── css/style.css
 └── js/script.js
 ```
@@ -29,18 +31,17 @@ ecommerce-project/
 | Checkout | checkout.html |
 | Make Payment | checkout.html (tahap pembayaran, simulasi) |
 | View Order | status pesanan di checkout.html |
-| Login | login.html |
 
-## Alur transaksi (sesuai Pertemuan 6)
+## Alur transaksi (sesuai desain Pertemuan 6)
 Customer Checkout → pilih metode pembayaran → proses pembayaran → "Pembayaran berhasil?"
-- **Berhasil:** PAYMENT.status = SUCCESS, ORDERS.status = PAID, stok berkurang.
+- **Berhasil:** PAYMENT.status = SUCCESS, ORDERS.status = PAID, stok produk berkurang.
 - **Gagal:** PAYMENT.status = FAILED, ORDERS.status = PAYMENT_FAILED. Jika dicoba lagi, data PAYMENT yang sama diperbarui (relasi ORDERS–PAYMENT 1:1).
 
 Contoh uji: Tumbler Kampus ×2 (Rp50.000) + Totebag Kampus ×1 (Rp75.000) = **Rp175.000**.
 
-## Fungsi yang bisa didemokan
-- Navigasi antarhalaman, filter kategori, product card konsisten
+## Fungsi yang dapat didemokan
+- Navigasi antarhalaman, filter kategori, product card dengan pola konsisten
 - Keranjang: tambah, ubah jumlah, hapus, hitung total, cek stok
-- Form checkout dan login dengan validasi (nama, email, alamat, kota, password)
-- Simulasi pembayaran berhasil/gagal
+- Form checkout dengan validasi (nama, email, alamat, kota wajib diisi; format email dicek)
+- Simulasi pembayaran berhasil dan gagal
 - Layout responsif (3 kolom desktop → 2 kolom tablet → 1 kolom mobile)
