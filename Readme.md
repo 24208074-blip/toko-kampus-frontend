@@ -1,8 +1,8 @@
 # Toko Kampus – Front-End E-Commerce Sederhana
 
-Tugas Pertemuan 7 – E-Business System
-Nama: Aurelia Relsi Patintingan | NIM: 24208074
-Studi kasus: **Sistem Toko Online Kampus** (desain Pertemuan 4–6)
+Tugas Pertemuan 7   – E-Business System
+Nama: Aurelia Relsi Patintingan   | NIM: 24208074
+Studi kasus  : **Sistem Toko Online Kampus** (desain Pertemuan 4–6)
 
 > Pembayaran pada proyek ini adalah **simulasi sistem**, bukan pembayaran nyata. Data disimpan sementara di `localStorage` browser dan belum terhubung ke database (back-end PHP/MySQL dibahas pada tahap berikutnya).
 
