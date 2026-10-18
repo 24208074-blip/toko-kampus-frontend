@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | Toko Kampus</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+<header class="site-header">
+  <a class="brand" href="index.html">Toko Kampus</a>
+  <nav aria-label="Navigasi utama">
+    <a href="index.html">Home</a>
+    <a href="index.html#katalog">Produk</a>
+    <a href="cart.html">Keranjang (<span id="cart-count">0</span>)</a>
+    <a href="checkout.html">Checkout</a>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <h1>Merchandise kampus, dipesan dalam beberapa klik</h1>
+    <p>Pilih produk, masukkan ke keranjang, lalu selesaikan pesanan. Pembayaran di toko ini hanya simulasi.</p>
+  </section>
+  <section id="katalog" aria-labelledby="judul-katalog">
+    <div class="bar">
+      <h2 id="judul-katalog">Katalog Produk</h2>
+      <label>Kategori <select id="filter"><option value="">Semua</option></select></label>
+    </div>
+    <div class="grid" id="product-list"></div>
+  </section>
+</main>
+<footer class="site-footer">Tugas Pertemuan 7 - E-Business System • Simulasi, bukan pembayaran nyata.</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
