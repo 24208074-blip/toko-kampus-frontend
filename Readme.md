@@ -1,10 +1,8 @@
 # Toko Kampus – Front-End E-Commerce Sederhana
 
-Tugas Pertemuan 7   – E-Business System  
-
-Nama: Aurelia Relsi Patintingan   | NIM: 24208074
-
-Studi kasus  : **Sistem Toko Online Kampus** (desain Pertemuan 4–6)
+Tugas Pertemuan 7 – E-Business System  
+Nama: Aurelia Relsi Patintingan | NIM: 24208074  
+Studi kasus: **Sistem Toko Online Kampus** (desain Pertemuan 4–6)
 
 > Pembayaran pada proyek ini adalah **simulasi sistem**, bukan pembayaran nyata. Data disimpan sementara di `localStorage` browser dan belum terhubung ke database (back-end PHP/MySQL dibahas pada tahap berikutnya).
 
@@ -39,7 +37,7 @@ Customer Checkout → pilih metode pembayaran → proses pembayaran → "Pembaya
 - **Berhasil:** PAYMENT.status = SUCCESS, ORDERS.status = PAID, stok produk berkurang.
 - **Gagal:** PAYMENT.status = FAILED, ORDERS.status = PAYMENT_FAILED. Jika dicoba lagi, data PAYMENT yang sama diperbarui (relasi ORDERS–PAYMENT 1:1).
 
-Contoh uji: Tumbler Kampus ×2 (Rp50.000) + Totebag Kampus ×1 (Rp75.000) = **Rp175.000**.
+Contoh uji: Tumbler ×2 (Rp50.000) + Totebag ×1 (Rp75.000) = **Rp175.000**.
 
 ## Fungsi yang dapat didemokan
 - Navigasi antarhalaman, filter kategori, product card dengan pola konsisten
