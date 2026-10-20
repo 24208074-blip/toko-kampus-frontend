@@ -1,11 +1,11 @@
 // ===== Data produk (simulasi, belum dari database) =====
 const PRODUCTS = [
-  {id:1,name:'Tumbler Kampus',cat:'Merchandise',price:50000,stock:25,icon:'🥤',bg:'#cfe8e4',desc:'Botol minum stainless 500 ml, tahan panas dan dingin.'},
-  {id:2,name:'Totebag Kampus',cat:'Merchandise',price:75000,stock:30,icon:'👜',bg:'#f6e3b4',desc:'Tas kanvas tebal dengan sablon logo kampus.'},
-  {id:3,name:'Kaos Kampus',cat:'Pakaian',price:90000,stock:20,icon:'👕',bg:'#d9e2f3',desc:'Kaos katun nyaman, tersedia ukuran S–XL.'},
-  {id:4,name:'Topi Kampus',cat:'Pakaian',price:45000,stock:15,icon:'🧢',bg:'#f3d6d2',desc:'Topi baseball bordir logo, ukuran bisa diatur.'},
-  {id:5,name:'Buku Catatan',cat:'Alat Tulis',price:25000,stock:40,icon:'📓',bg:'#e4ddf3',desc:'Buku catatan 100 halaman bersampul keras.'},
-  {id:6,name:'Lanyard Kampus',cat:'Alat Tulis',price:15000,stock:0,icon:'🎫',bg:'#dfe6e8',desc:'Tali ID card dengan tulisan nama kampus.'}
+  {id:1,name:'Tumbler',cat:'Perlengkapan',price:50000,stock:25,icon:'🥤',bg:'#cfe8e4',desc:'Botol minum stainless 500 ml, tahan panas dan dingin.'},
+  {id:2,name:'Totebag',cat:'Pakaian & Aksesori',price:75000,stock:30,icon:'👜',bg:'#f6e3b4',desc:'Tas kanvas tebal dengan sablon logo kampus.'},
+  {id:3,name:'Kaos',cat:'Pakaian & Aksesori',price:90000,stock:20,icon:'👕',bg:'#d9e2f3',desc:'Kaos katun nyaman, tersedia ukuran S–XL.'},
+  {id:4,name:'Topi',cat:'Pakaian & Aksesori',price:45000,stock:15,icon:'🧢',bg:'#f3d6d2',desc:'Topi baseball bordir logo, ukuran bisa diatur.'},
+  {id:5,name:'Buku Catatan',cat:'Perlengkapan',price:25000,stock:40,icon:'📓',bg:'#e4ddf3',desc:'Buku catatan 100 halaman bersampul keras.'},
+  {id:6,name:'Lanyard',cat:'Perlengkapan',price:15000,stock:0,icon:'🎫',bg:'#dfe6e8',desc:'Tali ID card dengan tulisan nama kampus.'}
 ];
 
 // ===== Helper =====
